@@ -1,0 +1,261 @@
+html{
+	font-family: trebuchet ms, segoe ui, optima;
+}
+	header{
+		display: flex;
+		height: auto;
+		background: #FFEBCD;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		padding: 20px;
+
+	}
+	#header{
+		display: flex;
+		flex-flow: row wrap;
+		margin: auto;
+	}
+	header nav a{
+		display: flex;
+		color: #000000;
+		text-decoration: none;
+		padding-left: 10px;
+		padding-top: 15px;
+	}
+	header nav a:hover{
+		background-color: #FFFAF0;
+	}
+	nav ul {
+		display: flex;
+	}
+	nav li{
+		list-style: none;
+	}
+	#shopping {
+		display: flex;
+		height: 30px;
+		width: 30px;
+		margin: auto;
+		padding-top: 0;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#user {
+		display: flex;
+		height: 30px;
+		width: 30px;
+		margin: auto;
+		padding-top: 0;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#notificacion {
+		display: flex;
+		height: 30px;
+		width: 30px;
+		margin: auto;
+		padding-top: 0;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.busqueda{
+		display: flex;
+		flex-direction: row;
+	}
+	#lupa{
+		display: flex;
+		height: 30px;
+		width: 30px;
+		margin: auto;
+		padding-top: 0;
+	}
+	#search {
+		display: flex;
+		height: auto;
+		width: 100px;
+		max-width: 100%;
+		margin: auto;
+		border: 2px outset #D87093;
+		background: #FFF5EE;
+		padding-bottom: 5px;
+		padding-top: 2px;
+		flex-wrap: wrap;
+		margin-top: 15px;
+		margin-left: 2px;
+
+	}
+
+	.body{
+		background-image: url(background.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	#logo {
+		display: flex;
+		height: auto;
+		width: 500px;
+		max-width: 100%;
+		align-items: center;
+		margin: auto;
+	}
+	#index {
+		display: flex;
+		height: auto;
+		width: 100px;
+		min-width: 10%;
+	}
+	h1{
+		padding-top: 10px;
+		text-align: center;
+		padding-left: 15px;
+	}
+	.title{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+
+	}
+	.menu-moda{
+		display: flex;
+		flex-direction: row;
+		background:#000000;
+		padding: 20px;
+		justify-content: space-between;
+		
+	}
+	div .menu-moda a{
+		text-decoration: none;
+		padding: 20px;
+		color: #FFEBCD;
+		flex-wrap: wrap;
+	}
+	div .menu-moda a:hover{
+		background-color: #48D1CC;
+	}
+	footer{
+		display: flex;
+		background: #000000;
+		height: auto;
+		margin: auto;
+
+	}
+	footer a {
+		display: flex;
+		flex-wrap: wrap;
+		text-decoration: none;
+		padding: 20px;
+		color: #FFEBCD;
+		height: auto;
+	}
+	#joyas{
+		display: flex;
+		height: auto;
+		width: 360px;
+		min-width: 50%;
+		flex-wrap: wrap;
+	}
+	#cases {
+		display: flex;
+		height: auto;
+		width: 360px;
+		min-width: 50%;
+		flex-wrap: wrap;
+	}
+	#mochilas{
+		display: flex;
+		height: auto;
+		width: 340px;
+		min-width: 50%;
+		flex-wrap: wrap;
+	}
+	#gafas{
+		display: flex;
+		height: auto;
+		width: 360px;
+		min-width: 50%;
+		flex-wrap: wrap;
+	}
+	.seccion1{
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 20px;
+		
+	}
+	.seccion2{
+		display: inline-flex;
+		margin: auto;
+		flex-direction: column;
+		justify-content: center;
+		align-content: stretch;
+		padding: 30px;
+	}
+	.seccion3{
+		display: inline-flex;
+		margin: auto;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-content: space-between;
+		padding: 20px;
+	}
+	.redes{
+		display: flex;
+		margin: auto;
+		flex-flow: row wrap;
+		padding: 10px;
+		justify-content: space-evenly;
+	}
+	#tik{
+		display: flex;
+		height: 30px;
+		width: 30px;
+		margin: auto;
+	}
+	#fb{
+		display: flex;
+		height: 30px;
+		width: 30px;
+		margin: auto;
+	}
+	#insta{
+		display: flex;
+		height: 30px;
+		width: 30px;
+		margin: auto;
+	}
+	#twitt{
+		display: flex;
+		height: 30px;
+		width: 30px;
+		margin: auto;
+	}
+	#pint{
+		display:flex;
+		height: 30px;
+		width: 30px;
+		margin: auto;
+	}
+	.img{
+		display: flex;
+		flex-direction: row;
+		margin: auto;
+		padding: 10px;
+		justify-content: space-between;
+		
+	}
+@media screen and (max-width: 1000px){
+	.menu-moda, .img, header nav a:hover{
+		flex-flow: column wrap;
+		align-content: center;
+			}
+	.menu-moda{
+		width: auto;
+		height: 180px;
+		align-items: center;
+		justify-content: space-between;
+
+	
+	}
+}
